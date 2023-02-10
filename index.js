@@ -51,7 +51,7 @@ app.post("/createRoom", function (req, res) {
     roomNo++;
     res.status(200).json({ output: 'Room Created Successfully'}) 
 });
-
+//-------------------
 app.post("/createBooking", function (req, res) {
     let booking = {};
     booking.id = uniqid();
